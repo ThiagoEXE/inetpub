@@ -1,0 +1,25 @@
+
+.formulario{
+    display:flex;
+    justify-content:center;
+}
+.form{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+}
+.form input{
+    margin:5%;
+    height:20px;
+}
+.form button{
+    width:50%;
+    margin-left:5%;
+}
+.form label{
+    margin-left:5%;
+}
+body {
+    background: #FFFFFF url("testes.jpg") no-repeat left top fixed;
+  }
