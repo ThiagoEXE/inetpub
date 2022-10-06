@@ -1,4 +1,7 @@
 <?php
+session_start();
+if(isset($_SESSION['usuario'])){
+
 $server = "127.0.0.1";
 $user = "root";
 $password = "";
@@ -24,4 +27,8 @@ else{
            echo "<p>Usuário Cadastrado com Sucesso</p>";
        }
     }
+}
+echo "foi";
+}else{
+    echo "não foi";
 }

@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['usuario'] = "564564456464sgfd65465g4g4dsf56564";
+?>
 <!Doctype html>
 <html lang="pt-br">
     <head>
